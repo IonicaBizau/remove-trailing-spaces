@@ -1,0 +1,28 @@
+{
+  "name": "remove-trailing-spaces",
+  "description": "Remove the trailing spaces from a string.",
+  "keywords": [
+    "remove",
+    "trailing",
+    "spaces",
+    "the",
+    "from",
+    "a",
+    "string"
+  ],
+  "license": "MIT",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IonicaBizau/remove-trailing-spaces.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/remove-trailing-spaces/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/remove-trailing-spaces#readme"
+}
