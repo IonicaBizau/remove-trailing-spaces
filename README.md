@@ -1,17 +1,18 @@
-## remove-trailing-spaces [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Travis](https://img.shields.io/travis/IonicaBizau/remove-trailing-spaces.svg)](https://travis-ci.org/IonicaBizau/remove-trailing-spaces/) [![Version](https://img.shields.io/npm/v/remove-trailing-spaces.svg)](https://www.npmjs.com/package/remove-trailing-spaces) [![Downloads](https://img.shields.io/npm/dt/remove-trailing-spaces.svg)](https://www.npmjs.com/package/remove-trailing-spaces) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
+
+# remove-trailing-spaces [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Travis](https://img.shields.io/travis/IonicaBizau/remove-trailing-spaces.svg)](https://travis-ci.org/IonicaBizau/remove-trailing-spaces/) [![Version](https://img.shields.io/npm/v/remove-trailing-spaces.svg)](https://www.npmjs.com/package/remove-trailing-spaces) [![Downloads](https://img.shields.io/npm/dt/remove-trailing-spaces.svg)](https://www.npmjs.com/package/remove-trailing-spaces) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Remove the trailing spaces from a string.
 
 ## :cloud: Installation
-    
+
 ```sh
 $ npm i --save remove-trailing-spaces
 ```
 
-            
+
 ## :clipboard: Example
 
-        
+
 
 ```js
 const removeTrailingSpaces = require("remove-trailing-spaces");
@@ -37,9 +38,10 @@ res.split("\n").forEach((c, i) => {
     // Removed 0 spaces on line 6
 });
 ```
-    
+
 ## :memo: Documentation
-        
+
+
 ### `removeTrailingSpaces(input)`
 Remove the trailing spaces from a string.
 
@@ -49,14 +51,21 @@ Remove the trailing spaces from a string.
 #### Return
 - **String** The output string.
 
-        
+
+
 ## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
+## :dizzy: Where is this library used?
+If you are using this library in one of your projects, add it in this list. :sparkles:
+
+
+ - [`write-file-trim`](https://github.com/IonicaBizau/write-file-trim#readme)—Write the content in a file after removing the trailing spaces.
+
 ## :scroll: License
-    
+
 [MIT][license] © [Ionică Bizău][website]
-    
+
 [paypal-donations]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RVXDDLKKLQRJW
 [donate-now]: http://i.imgur.com/6cMbHOC.png
 
